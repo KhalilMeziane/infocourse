@@ -1,0 +1,18 @@
+{
+  "name": "info-doc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "next": "10.0.3",
+    "postcss": "^8.1.10",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.1"
+  }
+}

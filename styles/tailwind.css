@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+.responsive-iframe{
+    @apply absolute top-0 left-0 bottom-0 right-0 w-full h-full
+}
+.active{
+    text-shadow: 0px 0px 1px #0070f3;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #111827;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255)
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+@tailwind utilities;
