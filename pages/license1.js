@@ -1,10 +1,13 @@
 import Head from 'next/head'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
+import Iframe from '../component/Iframe'
 export default function L1(){
     return(
         <div className="font-Poppins">
             <Head>
+                <meta property="og:url" content="https://infocourse.vercel.app/license1"/>
+                <meta property="og:title" content="L1 MI | Infocourse"/>
                 <title>L1 MI | Infocourse</title>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="description" content="documentation des course et td pour étudiant informatique de UHBC" />
@@ -26,13 +29,13 @@ export default function L1(){
                             <div className="mb-8 lg:mb-0 px-2 w-full pb-6">
                                 <h3 className="text-xl lg:text-2xl font-semibold capitalize text-center mb-2">semester 1</h3>
                                 <div className="py-1 w-full relative h-96 lg:h-80">
-                                    <iframe className="responsive-iframe" src="https://drive.google.com/embeddedfolderview?id=1IO6_fouo1vCoVIvqgZxFZbSOnbKS3gJL" title="1er math et informatique modules of semester 1"></iframe>
+                                    <Iframe sourceId="1IO6_fouo1vCoVIvqgZxFZbSOnbKS3gJL" title="1er math et informatique modules of semester 1"/>
                                 </div>
                             </div>
                             <div className="mb-8 lg:mb-0 px-2 w-full pb-6">
                                 <h3 className="text-xl lg:text-2xl font-semibold capitalize text-center mb-2">semester 2</h3>
                                 <div className="py-1 w-full relative h-96 lg:h-80">
-                                    <iframe className="responsive-iframe" src="https://drive.google.com/embeddedfolderview?id=1oN-SA1U4c2OfXCXbelgIztf1_9tPHU9n" title="1er math et informatique modules of semester 2"></iframe>
+                                    <Iframe sourceId="1oN-SA1U4c2OfXCXbelgIztf1_9tPHU9n" title="1er math et informatique modules of semester 2"/>
                                 </div>
                             </div>
                         </div>

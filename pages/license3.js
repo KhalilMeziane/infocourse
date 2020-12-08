@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
+import Iframe from '../component/Iframe'
 export default function L1(){
     return(
         <div className="font-Poppins">
             <Head>
                 <title>License 3 | Infocourse</title>
+                <meta property="og:url" content="https://infocourse.vercel.app/license3"/>
+                <meta property="og:title" content="License 3 | Infocourse"/>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="description" content="documentation des course et td pour étudiant informatique de UHBC" />
                 <meta name="author" content="meziane khalil"/>
@@ -26,13 +29,13 @@ export default function L1(){
                             <div className="mb-8 lg:mb-0 px-2 w-full pb-6">
                                 <h3 className="text-xl lg:text-2xl font-semibold capitalize text-center mb-2">semester 1</h3>
                                 <div className="py-1 w-full relative h-96 lg:h-80">
-                                    <iframe className="responsive-iframe" src="https://drive.google.com/embeddedfolderview?id=" title="1er math et informatique modules of semester 1"></iframe>
+                                    <Iframe sourceId="1y4SzU4HXok54qquQNqsikVz_pZdyxZ4N" title="license 3 informatique modules de semester 5"/>
                                 </div>
                             </div>
                             <div className="mb-8 lg:mb-0 px-2 w-full pb-6">
                                 <h3 className="text-xl lg:text-2xl font-semibold capitalize text-center mb-2">semester 2</h3>
                                 <div className="py-1 w-full relative h-96 lg:h-80">
-                                    <iframe className="responsive-iframe" src="https://drive.google.com/embeddedfolderview?id=" title="1er math et informatique modules of semester 2"></iframe>
+                                    <Iframe sourceId="" title="license 3 informatique modules de semester 6"/>
                                 </div>
                             </div>
                         </div>

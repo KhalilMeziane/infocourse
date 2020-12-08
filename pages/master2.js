@@ -1,11 +1,14 @@
 import Head from 'next/head'
 import Header from '../component/Header'
 import Footer from '../component/Footer'
+import Iframe from '../component/Iframe'
 export default function L1(){
     return(
         <div className="font-Poppins">
             <Head>
                 <title>Master 2 | Infocourse</title>
+                <meta property="og:url" content="https://infocourse.vercel.app/master1"/>
+                <meta property="og:title" content="Master 2 | Infocourse"/>
                 <link rel="icon" href="/favicon.ico" />
                 <meta name="description" content="documentation des course et td pour étudiant informatique de UHBC" />
                 <meta name="author" content="meziane khalil"/>
@@ -15,7 +18,7 @@ export default function L1(){
             <Header>
                 <div className="container mx-auto flex items-center h-full text-gray-900">
                     <div className="md:w-10/12 xl:w-8/12 mx-auto">
-                        <h1 className="text-3xl lg:text-4xl capitalize font-bold leading-snug text-center">Master 2 <span className="uppercase">isil</span> + <span className="uppercase">isia</span></h1>
+                        <h1 className="text-3xl lg:text-4xl capitalize font-bold leading-snug text-center">Master 2 <span className="uppercase">il</span> + <span className="uppercase">isia</span></h1>
                     </div>
                 </div>
             </Header>
@@ -26,13 +29,13 @@ export default function L1(){
                             <div className="mb-8 lg:mb-0 px-2 w-full pb-6">
                                 <h3 className="text-xl lg:text-2xl font-semibold capitalize text-center mb-2">semester 3</h3>
                                 <div className="py-1 w-full relative h-96 lg:h-80">
-                                    <iframe className="responsive-iframe" src="https://drive.google.com/embeddedfolderview?id=" title="1er math et informatique modules of semester 1"></iframe>
+                                    <Iframe sourceId="" title="Master 2 modules de semester 3"/>
                                 </div>
                             </div>
                             <div className="mb-8 lg:mb-0 px-2 w-full pb-6">
                                 <h3 className="text-xl lg:text-2xl font-semibold capitalize text-center mb-2">semester 4</h3>
                                 <div className="py-1 w-full relative h-96 lg:h-80">
-                                    <iframe className="responsive-iframe" src="https://drive.google.com/embeddedfolderview?id=" title="1er math et informatique modules of semester 2"></iframe>
+                                    <Iframe sourceId="" title="Master 2 modules de semester 4"/>
                                 </div>
                             </div>
                         </div>
