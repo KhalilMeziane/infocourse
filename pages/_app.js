@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
         <meta property="twitter:title" content="InfoCourse"/>
         <meta property="twitter:description" content="InfoCourse is a library of Courses, Exercises, Exams and several other documents for all UHBC informatique students"/>
         <meta property="twitter:image" content="https://infocourse.vercel.app/public/couver.png"/>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
       </Head>
       <Component {...pageProps} />
     </>
