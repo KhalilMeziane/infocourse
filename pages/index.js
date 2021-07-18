@@ -81,7 +81,13 @@ export default function Home() {
                       </div>
                     <div className="flex justify-center">
                         <Link href="/license1">
-                          <a className="lg:text-lg capitalize py-2 px-8 text-white bg-customBlue rounded-full mb-3">start learn <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style={{fill:"rgb(250, 250, 250)",display:"inline"}}><path d="M11.293 17.293L12.707 18.707 19.414 12 12.707 5.293 11.293 6.707 15.586 11 6 11 6 13 15.586 13z"></path></svg></a>
+                          <a className="lg:text-lg capitalize py-2 px-8 text-white bg-customBlue rounded-full mb-3">start learn 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
+                              style={{fill:"rgb(250, 250,250)",display:"inline"}}>
+                              <title>start learn now</title>
+                              <path d="M11.293 17.293L12.707 18.707 19.414 12 12.707 5.293 11.293 6.707 15.586 11 6 11 6 13 15.586 13z"></path>
+                            </svg>
+                          </a>
                         </Link>
                     </div>
                 </div>
@@ -131,7 +137,13 @@ export default function Home() {
                       </div>
                     <div className="flex justify-center">
                         <Link href="/license2">
-                          <a className="lg:text-lg capitalize py-2 px-8 text-white bg-customBlue rounded-full my-3">start learn <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style={{fill:"rgb(250, 250, 250)",display:"inline"}}><path d="M11.293 17.293L12.707 18.707 19.414 12 12.707 5.293 11.293 6.707 15.586 11 6 11 6 13 15.586 13z"></path></svg></a>
+                          <a className="lg:text-lg capitalize py-2 px-8 text-white bg-customBlue rounded-full my-3">start learn 
+                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" 
+                              style={{fill:"rgb(250, 250,250)",display:"inline"}}>
+                              <title>start learn now</title>
+                              <path d="M11.293 17.293L12.707 18.707 19.414 12 12.707 5.293 11.293 6.707 15.586 11 6 11 6 13 15.586 13z"></path>
+                            </svg>
+                          </a>
                         </Link>
                     </div>
                 </div>
