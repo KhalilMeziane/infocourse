@@ -32,12 +32,6 @@ export default function L1(){
                                     <Iframe sourceId="1Yp-Vy6052T3Ipi5MZLvTdqHUoLHmI8Oa" title="Master 2 modules de semester 3"/>
                                 </div>
                             </div>
-                            <div className="mb-8 lg:mb-0 px-2 w-full pb-6">
-                                <h3 className="text-xl lg:text-2xl font-semibold capitalize text-center mb-2">semester 4</h3>
-                                <div className="py-1 w-full relative h-96 lg:h-80">
-                                    <Iframe sourceId="" title="Master 2 modules de semester 4"/>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
